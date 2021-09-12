@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <!-- roboto google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- <h1 class="logo">LOGO</h1> -->
+      <div class="nav">
+        <div class="logo">
+          <img src="./asstes/Group1.svg" alt="nikko" class="logo-nikko" />
+          <img src="./asstes/Group.svg" alt="am" class="logo-AM" />
+        </div>
+        <ul class="nav-items">
+          <li class="navlink"><a href="#" class="robot-text">About us</a></li>
+          <li class="navlink">
+            <a href="#" class="robot-text">Sutainability</a>
+          </li>
+          <li class="navlink">
+            <a href="#" class="robot-text">Insights & News</a>
+          </li>
+          <li class="navlink"><a href="#" class="robot-text">Contact</a></li>
+          <li class="navlink"><a href="#" class="robot-text">Strength</a></li>
+          <li class="navlink"><a href="#" class="robot-text">Funds</a></li>
+          <li class="navlink">
+            <a href="#" class="robot-text">How to Invest</a>
+          </li>
+          <li class="navlink"><a href="#" class="robot-text">Contact</a></li>
+          <select class="navlink options">
+            <option value="Singapore" class="robot-text">Singapore</option>
+          </select>
+        </ul>
+        <img
+          src="./asstes/search_24px.svg"
+          alt="SearchIcon"
+          class="search-icon"
+        />
+        <img src="./asstes/Menu.svg" alt="Menu" class="nav-menu" />
+      </div>
+    </header>
+    <main>
+      <!-- first section  -->
+      <section>
+        <div class="vector-section">
+          <img src="./asstes/GroupVector.svg" alt="vector" id="wave" />
+        </div>
+        <!-- mobile imgae -->
+        <div class="svg-vector-mobile-div">
+          <img
+            src="./asstes/MobileSvg.svg"
+            alt="vector"
+            class="modile-svg-vector"
+          />
+        </div>
+
+        <div>
+          <p class="text-one robot-text">
+            Progressive Solutions Competitive Performance Global Citizen with
+            Asian DNA
+          </p>
+
+          <p class="text-two robot-text">
+            We’re one of Asia’s largest asset managers.
+          </p>
+
+          <div class="first-section-link-div">
+            <a
+              href="https://www.google.com/"
+              class="first-section-link robot-text"
+            >
+              <p class="first-section-link-text">Learn more about who we are</p>
+              <img
+                src="asstes/FirstArrow.svg"
+                alt="Arrow"
+                class="first-section-arrow"
+              />
+            </a>
+          </div>
+
+          <div class="border-left"></div>
+        </div>
+      </section>
+      <!-- second section  -->
+      <section>
+        <div class="second-section-div">
+          <img
+            src="./asstes/SecondGroup.svg"
+            alt="Svg Image"
+            class="second-svg"
+          />
+        </div>
+
+        <div class="second-section-div-mobile">
+          <img
+            src="./asstes/SecondSVGMobile.svg"
+            alt="Svg Image"
+            class="secong-mobile-svg"
+          />
+          <p class="small-text-second-section robot-text">
+            Team of unique combination
+          </p>
+          <p class="big-text-second-section robot-text">
+            Global Intelligence Asian Insights Local Experience
+          </p>
+          <p class="medium-text-second-section robot-text">
+            We transform intelligent insights into innovative, relevant
+            investment opportunities for our clients. Leveraging our unique
+            combination of a global perspective complemented by our Asian DNA,
+            we aspire to create sophisticated and diverse solutions that set new
+            standards in the asset management industry.
+          </p>
+          <div class="second-section-link-div">
+            <a
+              href="https://www.google.com/"
+              class="second-section-link-text-a"
+            >
+              <p class="second-section-link-text robot-text">
+                Learn more about what makes us unique
+              </p>
+              <img
+                src="asstes/Arrow.svg"
+                alt="Arrow"
+                class="second-section-arrow"
+            /></a>
+          </div>
+        </div>
+
+        <div class="border-left-second-section"></div>
+      </section>
+      <!-- third section  -->
+      <section>
+        <div class="third-section-div">
+          <img
+            src="./asstes/secondVector.svg"
+            alt="vector"
+            id="wave"
+            class="svg-vector-third-section"
+          />
+
+          <p class="big-text-third-section robot-text">Our Featured Funds</p>
+          <div class="numbers">
+            <button
+              id="0"
+              class="number-one robot-text number-button active btn"
+            >
+              01
+            </button>
+            <button id="1" class="number-two robot-text number-button btn">
+              02
+            </button>
+            <button id="2" class="number-three robot-text number-button btn">
+              03
+            </button>
+            <button id="3" class="number-four robot-text number-button btn">
+              04
+            </button>
+          </div>
+          <p class="medium-text-third-section robot-text">
+            Nikko AM ARK Disruptive Innovation Fund
+          </p>
+
+          <div class="data-number">
+            <div class="border-top"></div>
+            <div class="first-data-div data-marginm">
+              <p class="data-first-text robot-text data-text data-margin">
+                NAV (per 100 shares)
+              </p>
+              <p
+                id="text-carousel-one"
+                class="first-data-number robot-text data-number-text"
+              ></p>
+
+              <div class="data-margin">
+                <div class="border-bottom"></div>
+              </div>
+            </div>
+            <div class="second-data-div data-marginm">
+              <p class="data-second-text robot-text data-text data-margin">
+                Net Assets
+              </p>
+              <p
+                id="text-carousel-second"
+                class="second-data-number robot-text data-number-text"
+              ></p>
+              <div class="data-margin">
+                <div class="border-bottom"></div>
+              </div>
+            </div>
+
+            <div class="third-data-div data-marginm">
+              <p
+                class="data-third-text robot-text data-text data-margin robot-text"
+              >
+                Day Change
+              </p>
+              <p
+                id="text-carousel-third"
+                class="third-data-number robot-text data-number-text"
+              ></p>
+              <div class="data-margin">
+                <div class="border-bottom"></div>
+              </div>
+            </div>
+            <div class="fourth-data-div data-marginm">
+              <p class="data-fourth-text robot-text data-text data-margin">
+                Issued
+              </p>
+              <p
+                id="text-carousel-fourth"
+                class="fourth-data-number data-number-text robot-text"
+              ></p>
+              <div class="data-margin">
+                <div class="border-bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="graph"></div>
+          <div class="graph-mobile-div">
+            <img src="./asstes/GraphOne.svg" alt="GraphOne" class="graph-one" />
+            <img src="./asstes/GraphTwo.svg" alt="GraphTwo" class="graph-two" />
+          </div>
+          <div class="third-section-link-div">
+            <a
+              href="https://www.google.com/"
+              class="first-section-link robot-text"
+            >
+              <p class="third-section-link-text">Explore more funds</p>
+              <img
+                src="asstes/FirstArrow.svg"
+                alt="Arrow"
+                class="thid-section-arrow"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./index.js"></script>
+    <script type="module" src="./carousel.js"></script>
+    <!-- import module -->
+    <script src="./data/data.js" type="module"></script>
+  </body>
+</html>
