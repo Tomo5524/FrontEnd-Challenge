@@ -828,6 +828,7 @@ header {
   .data-number-text {
     font-size: 14px;
     line-height: 18px;
+    padding-left: 4px;
     /* identical to box height, or 129% */
     letter-spacing: -0.025em;
   }
